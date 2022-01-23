@@ -2,6 +2,9 @@
 : '
 Do not install the following through the command line:
 - Discord
+
+TODO Manually:
+- configure git
 '
 
 cd ~
@@ -9,7 +12,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # Install apps
-sudo apt install vlc telegram-desktop
+sudo apt install vlc telegram-desktop git
 
 # Install Brave
 sudo apt install apt-transport-https curl
